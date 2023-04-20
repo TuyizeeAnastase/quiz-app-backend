@@ -122,12 +122,9 @@ router.post(
  *         description: questions by quiz id
  *         contens:
  *           application/json:
- *             schema:
- *               $ref: '#/components/schemas/Bus'
  *       404:
  *         description: The quiz was not found
  */
- 
 
 router.get("/question/:id", protect, quizController.getQuestions);
 
