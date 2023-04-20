@@ -43,3 +43,6 @@
 
 ### Database Documentation
 [ERD Documentation](https://dbdiagram.io/d/6441253a6b31947051eaa6ac)
+
+Images
+![swagger](https://res.cloudinary.com/duhetxdbs/image/upload/v1682005315/Screenshot_from_2023-04-20_17-41-11_d4msqm.png)
