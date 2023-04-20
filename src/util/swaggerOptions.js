@@ -20,10 +20,9 @@ const swaggerOptions = {
     },
     servers: [
       { url: "http://localhost:4500" },
-      // {
-      //   url: ``,
-      //   name: `${os.hostname()}`,
-      // },
+      {
+        url: 'https://quiz-jahk.onrender.com',
+      },
     ],
   },
   apis: [path.resolve(__dirname, "../routers/*.js")],
