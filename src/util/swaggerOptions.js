@@ -21,7 +21,7 @@ const swaggerOptions = {
     servers: [
       { url: "http://localhost:4500" },
       {
-        url: 'https://quiz-jahk.onrender.com',
+        url: 'https://quiz-xy92.onrender.com',
       },
     ],
   },

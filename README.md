@@ -43,7 +43,7 @@
 
 ### Api Production Link
 
-[Production Link](https://quiz-xy92.onrender.com)
+[Production Link](https://quiz-xy92.onrender.com/api-docs/)
 
 ### Api Documentation
 
