@@ -18,6 +18,24 @@ module.exports = {
         createdAt: new Date(),
         updatedAt: new Date(),
       },
+      {
+        title: "computer",
+        description: "instructions ...",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        title: "Math",
+        description: "instructions ...",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        title: "Data structures",
+        description: "instructions ...",
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
     ]);
   },
 

@@ -21,6 +21,7 @@ const router = express();
  * /api/v1/quiz:
  *   post:
  *     summary: add new quiz
+ *     description: add new quiz to database by only admin user
  *     tags: [Quiz]
  *     security:
  *       - bearerAuth: []
@@ -64,6 +65,7 @@ router.post(
  * /api/v1/quiz/question:
  *   post:
  *     summary: add new question to quiz
+ *     description: add questions and answers to any specific quiz
  *     tags: [Quiz]
  *     security:
  *       - bearerAuth: []
@@ -107,6 +109,7 @@ router.post(
  * /api/v1/quiz/question/{id}:
  *   get:
  *     summary: Get the question by quiz id
+ *     description: get quiz many questions and select any randomly
  *     tags: [Quiz]
  *     security:
  *       - bearerAuth: []

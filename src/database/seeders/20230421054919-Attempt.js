@@ -11,31 +11,39 @@ module.exports = {
      *   isBetaMember: false
      * }], {});
      */
-    await queryInterface.bulkInsert("Users", [
+    await queryInterface.bulkInsert("Attempts", [
       {
-        username: "anastase",
-        email: "anastase@gmail.com",
-        password:
-          "$2a$12$GXXRXhI2G7bQrHW44XzTcOXoOTAv7tgGKPKffSC606XuKoOmOc4My",
-        role_id: 1,
+        user_id: 1,
+        quiz_id: 1,
+        score: 45,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
-        username: "tuyizere",
-        email: "tuyizere@gmail.com",
-        password:
-          "$2a$12$GXXRXhI2G7bQrHW44XzTcOXoOTAv7tgGKPKffSC606XuKoOmOc4My",
-        role_id: 2,
+        user_id: 1,
+        quiz_id: 2,
+        score: 4,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
       {
-        username: "test",
-        email: "test@gmail.com",
-        password:
-          "$2a$12$GXXRXhI2G7bQrHW44XzTcOXoOTAv7tgGKPKffSC606XuKoOmOc4My",
-        role_id: 2,
+        user_id: 1,
+        quiz_id: 3,
+        score: 15,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        user_id: 2,
+        quiz_id: 2,
+        score: 10,
+        createdAt: new Date(),
+        updatedAt: new Date(),
+      },
+      {
+        user_id: 2,
+        quiz_id: 1,
+        score: 13,
         createdAt: new Date(),
         updatedAt: new Date(),
       },
@@ -49,6 +57,6 @@ module.exports = {
      * Example:
      * await queryInterface.bulkDelete('People', null, {});
      */
-    await queryInterface.bulkDelete("Users", null, {});
+    await queryInterface.bulkDelete("Attemps", null, {});
   },
 };

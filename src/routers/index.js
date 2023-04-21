@@ -5,6 +5,7 @@ import swaggerUI from "swagger-ui-express";
 import swaggerOptions from "../util/swaggerOptions";
 import welcomeRoute from "./welcome.routers";
 import quizRoute from "./quiz.routers";
+import scoreRoute from "./score.routers";
 
 const swaggerDoc = swaggerJsdoc(swaggerOptions);
 const routes = express();
@@ -13,6 +14,7 @@ routes.use("/", welcomeRoute);
 
 routes.use("/api/v1/user", userRoute);
 routes.use("/api/v1/quiz", quizRoute);
+routes.use("/api/v1/score", scoreRoute);
 
 routes.use("/api-docs", swaggerUI.serve, swaggerUI.setup(swaggerDoc));
 

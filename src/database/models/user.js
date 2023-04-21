@@ -16,6 +16,11 @@ module.exports = (sequelize, DataTypes) => {
       as: "role",
       onDelete: "CASCADE",
     });
+    User.hasMany(models.Attempt, {
+      foreignKey: "user_id",
+      as: "user",
+      onDelete: "CASCADE",
+    });
   };
   return User;
 };

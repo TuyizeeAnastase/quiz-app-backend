@@ -23,6 +23,7 @@ const router = express();
  * /api/v1/user/register:
  *   post:
  *     summary: User registrations
+ *     description: user creating account
  *     tags: [Auth]
  *     requestBody:
  *       required: true
@@ -67,6 +68,7 @@ router.post(
  * /api/v1/user/login:
  *   post:
  *     summary: User login
+ *     description: user logging in
  *     tags: [Auth]
  *     requestBody:
  *       required: true

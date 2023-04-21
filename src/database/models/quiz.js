@@ -13,6 +13,11 @@ module.exports = (sequelize, DataTypes) => {
       as: "quiz",
       onDelete: "CASCADE",
     });
+    Quiz.hasMany(models.Attempt, {
+      foreignKey: "quiz_id",
+      as: "quiz_score",
+      onDelete: "CASCADE",
+    });
   };
   return Quiz;
 };
