@@ -39,6 +39,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.20.12",
     "@babel/node": "^7.20.7",
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.21.4",
@@ -69,9 +70,5 @@
     "supertest": "^6.3.3",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^4.6.2"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.21.4",
-    "babel-cli": "^6.26.0"
   }
 }
