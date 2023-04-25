@@ -21,7 +21,7 @@ export class UserControllers {
       const user = await createUser(newUser);
       return res.status(201).json({
         message: `USer created successfully under ${username} username`,
-        user,
+        user: { ...user.dataValues, password: "" },
       });
     } catch (err) {
       return res.status(500).json({

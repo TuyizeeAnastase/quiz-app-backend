@@ -126,7 +126,6 @@ router.post("/", protect, scroreController.addAttemptScore);
 router.get(
   "/admin/:id",
   protect,
-  restrictTo("admin"),
   scroreController.getAllQuizScore
 );
 
@@ -158,7 +157,6 @@ router.get(
 router.get(
   "/admin/:id/user",
   protect,
-  restrictTo("admin"),
   scroreController.getAllUserScore
 );
 

@@ -48,7 +48,6 @@ const router = express();
 router.post(
   "/",
   protect,
-  restrictTo("admin"),
   quizValidation,
   quizController.addQuiz
 );
@@ -98,7 +97,6 @@ router.post(
 router.post(
   "/question",
   protect,
-  restrictTo("admin"),
   questionValidation,
   checkQuizExist,
   quizController.addQuestion
