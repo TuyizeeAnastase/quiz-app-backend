@@ -17,7 +17,7 @@ const router = express();
  * @swagger
  * /api/v1/score:
  *   get:
- *     summary: get  more quiz score
+ *     summary: get all quiz attempt score
  *     description: get all score for quiz for logged user
  *     tags: [Score]
  *     security:
@@ -37,7 +37,7 @@ router.get("/", protect, scroreController.getUserQuiz);
  * @swagger
  * /api/v1/score/quiz/{id}:
  *   get:
- *     summary: Get the score of one quiz
+ *     summary: Get the score of one quiz by entering quiz_id like 1,2...
  *     description: gett attempted quiz score by user
  *     tags: [Score]
  *     security:
@@ -71,8 +71,8 @@ router.get("/quiz/:id", protect, scroreController.getUserQuizesScore);
  * @swagger
  * /api/v1/score:
  *   post:
- *     summary: save quiz attempt
- *     description: submit or save the score by user
+ *     summary: save quiz attempt,
+ *     description: submit or save the score by user, after quiz submission save score with quiz_id and score with logged user
  *     tags: [Score]
  *     security:
  *       - bearerAuth: []

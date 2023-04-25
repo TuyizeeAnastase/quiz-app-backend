@@ -106,8 +106,8 @@ router.post(
  * @swagger
  * /api/v1/quiz/question/{id}:
  *   get:
- *     summary: Get the question by quiz id
- *     description: get quiz many questions and select any randomly
+ *     summary: Get the question by quiz id example id 1,....
+ *     description: get quiz many questions and select any randomly to return them to enduser
  *     tags: [Quiz]
  *     security:
  *       - bearerAuth: []
