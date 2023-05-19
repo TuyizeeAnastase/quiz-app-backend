@@ -43,15 +43,10 @@
 
 ### Api Production Link
 
-[Production Link](https://quiz-xy92.onrender.com/api-docs/)
+[Production Link](https://chat-gpt-plugins.onrender.com)
 
-### Api Documentation
-
-[Swagger Documentation](https://quiz-xy92.onrender.com/api-docs/)
-
-### Database Documentation
-
-[ERD Documentation](https://dbdiagram.io/d/6441253a6b31947051eaa6ac)
-
-Images
-![swagger](https://res.cloudinary.com/duhetxdbs/image/upload/v1682063303/Screenshot_from_2023-04-21_09-47-37_yge2az.png)
+### ADD plugin
+- open [chatGPT4](https://chat.openai.com/?model=gpt-4-plugins)
+- naviagate to plugin store and add the ling [link](https://chat-gpt-plugins.onrender.com)) on develop own plugin
+- search use keywords `job` to get all opened job or products to get all `products` from company
+![Screenshot from 2023-05-19 16-08-18](https://github.com/TuyizeeAnastase/quiz-app-backend/assets/42033331/9fa88bcf-b380-42a9-a9c8-9c9d6d7536a5)
